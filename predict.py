@@ -4,10 +4,9 @@ from ultralytics import YOLO
 import cv2
 
 
-VIDEOS_DIR = os.path.join('/Users/madisonattobra/Documents/data', 'videos')
+VIDEOS_DIR = os.path.join('/Users/madisonattobra/Documents/data', 'videos') # replace with your own path
 
-# video_path = os.path.join(VIDEOS_DIR, 'Enregistrement de l’écran 2024-04-17 à 18.45.51.mp4') 
-video_path = os.path.join(VIDEOS_DIR, 'VID-20240415-WA0001.mp4')
+video_path = os.path.join(VIDEOS_DIR, 'VID-20240415-WA0001.mp4') # replace with your own video path
 video_path_out = '{}_out.mp4'.format(video_path)
 
 cap = cv2.VideoCapture(video_path)

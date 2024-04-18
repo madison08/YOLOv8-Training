@@ -1,3 +1,7 @@
+# YOLOv8-Training
+
+This repository contains a Python project for training a YOLOv8 model using the Ultralytics library. The model is built from scratch and trained using custom data specified in a configuration file.
+
 ## Config
 
 1. Activate your virtual environment:

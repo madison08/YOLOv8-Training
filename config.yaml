@@ -1,8 +1,13 @@
 # YAML file for config.yaml
-path: /Users/madisonattobra/Documents/data
+path: /Users/madisonattobra/Documents/data # replace with your own path
 train: images/train/ # directory of training images
 val: images/train/ # directory of validation images
 
+# names: list of class names
 names:
   0: shell
   1: shellp
+  #2: person
+  #3: car
+  #4: dog
+  # add more classes as needed
